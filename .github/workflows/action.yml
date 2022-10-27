@@ -12,7 +12,7 @@ jobs:
     name: Cppcheck 2.8
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Cppcheck
         uses: deep5050/cppcheck-action@main
